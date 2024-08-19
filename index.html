@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MINHA EMPRESA</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css&quot;/">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header class="cabecalho">
@@ -76,5 +78,46 @@
                  Horário de atendimento das 11H á 22H</p>
                  <input type="search" class="banner-pesquisa" placeholder="O que procura?"/>  
         </section>
+
+<section class="carrossel">
+    <h2 class="carrossel-titulo">
+        Meus produtos:
+    </h2>
+
+  <div class="swiper">
+      <div class="swiper-wrapper">
+         
+          <div class="swiper-slide"><img src="lasanha.jpeg" alt="Lanches"/></div>
+          <div class="swiper-slide"><img src="macarrao F.jpeg" alt="Batata Frita"/></div>
+          <div class="swiper-slide"><img src="macarrao C.jpeg" alt="Calabresa"/></div>
+          <div class="swiper-slide"><img src="pizza P.jpeg" alt="Bebidas"/></div>
+          <div class="swiper-slide"><img src="pizza  M.jpeg" alt="Drinks"/></div>
+          <div class="swiper-slide"><img src="macarrao P.jpeg" alt="Vegertariano"/> </div>
+          <div class="swiper-slide"><img src="chessecake.jpeg" alt="Delivery"/> </div>
+          <div class="swiper-slide"><img src="paes.jpeg" alt="Delivery"/> </div>
+          <div class="swiper-slide"><img src="vinhos.jpeg" alt="Delivery"/> </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>    
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>;
+<script>
+  const swiper = new Swiper(".swiper", {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+</script>
+
 </body>
 </html>
+              
+            

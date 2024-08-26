@@ -15,12 +15,10 @@
       width: 30vw;
   
   }
-  
-  .swiper-button-prev,
+     .swiper-button-prev,
 .swiper-button-next {
     display: none;
 }
-
 
 .swiper-pagination {
     position: initial;
